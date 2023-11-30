@@ -30,11 +30,11 @@ ssh-add 私钥文件路径
 ###使用ssh-add -l查询都有哪些私钥添加到ssh agent中
 ssh-add -l
 ```
-![[Pasted image 20231201001139.png]]
+![](attachments/Pasted%20image%2020231201001139.png)
 
 ==注意：==
 1. 如果提示No such file or directory，且修改为全路径无效，或者提示the agent has no identities，则需要检查ssh-agent服务是否启动：
-![[Pasted image 20231201000830.png]]
+![](attachments/Pasted%20image%2020231201000830.png)
 2. 如果提示Could not open a connection to your authentication agent，那么尝试以下命令后再输入以上命令
 ```shell
 ssh-agent bash
