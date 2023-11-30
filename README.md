@@ -32,7 +32,7 @@ ssh-add -l
 ```
 ![](attachments/Pasted%20image%2020231201001139.png)
 
-==注意：==
+**注意:**
 1. 如果提示No such file or directory，且修改为全路径无效，或者提示the agent has no identities，则需要检查ssh-agent服务是否启动：
 ![](attachments/Pasted%20image%2020231201000830.png)
 2. 如果提示Could not open a connection to your authentication agent，那么尝试以下命令后再输入以上命令
@@ -40,3 +40,9 @@ ssh-add -l
 ssh-agent bash
 ssh-add 私钥文件路径
 ```
+
+
+
+测试图片转换
+
+![](attachments/Pasted%20image%2020231201004604.png)
