@@ -155,5 +155,9 @@ git checkout <name>  切换分支
 git push <shortName> <name>        把分支推送到远程仓库
 git merge <name>        合并分支
 ```
-8. 暂存 git stash 
-![[git stash]]
+8. 暂存 git stash
+
+[git stash](git%20stash.md)
+
+
+
